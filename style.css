@@ -29,6 +29,12 @@ form input, form button{
    background: #414863
 }
 
+form input{
+   color: white;
+   font-family: "Montserrat", sans-serif;
+   font-size: 1.88rem;
+}
+
 form button{
    color: white;
    background-color: #414863;
@@ -77,4 +83,8 @@ form button:hover{
 
 .complete-btn{
    background: #39b887;
+}
+
+.todo-item{
+   padding: 0rem 0.5rem;
 }
