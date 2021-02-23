@@ -1,0 +1,16 @@
+{
+   "manifest_version" : 2,
+   "name" : "DO!T",
+   "version" : "1.0",
+   "description" : "Just Do it! Your go-todo app!",
+   "icons" : {
+       "128" : "icons8-checklist-128.png",
+       "48" : "icons8-checklist-48.png",
+       "16" : "icons8-checklist-16.png"
+   },
+   "browser_action" : {
+       "default_icon" : "icons8-checklist-16.png",
+       "default_popup" : "index.html"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
